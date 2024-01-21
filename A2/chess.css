@@ -31,7 +31,6 @@ img {
 }
 
 #footer{
-    size: 50px;
     text-align:center;
     padding: 10px;
     margin: 10px;
@@ -46,7 +45,7 @@ img {
 }
 
 .white, .black {
-    border: 1px solid black;
+    border: 1px solid;
     width: 11%;
     height: 60px;
     float: left;
