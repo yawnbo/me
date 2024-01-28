@@ -1,0 +1,73 @@
+* {
+    font-family:'DancingScriptRegular';
+    font-size: 105%;
+    color: #6740d4;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 200%;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+}
+#content {
+    overflow: auto;
+}
+#nav, #feature, #footer {
+    margin: 1%;
+}
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    background-color: rgb(255, 0, 0);
+}
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+#footer {
+    background-color: #38c9d1;
+    padding: 0.5em 0;
+}
+
+#nav {
+    background-color:#cf87e5;
+    padding: 0.5em 0;
+}
+#feature, .article {
+    height: 10em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 150%;
+    background-color: #e37070;
+}
+
+#feature {
+    background-image: url("patrick.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-position-y: 25%;
+}
+
+.column1 {
+    background-color: #3cb5e9;
+    margin-bottom: 1em;
+}
+
+.column2 {
+    background-color: #94a9e8;
+}
+
+.column3 {
+    background-color: #3c90e9;
+    margin-right: 0%;
+}
