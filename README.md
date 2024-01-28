@@ -1,4 +1,4 @@
 # me
 **Repo for HTML and CSS practice/intro**
 
-[For personal testing](https://yawnbo.github.io/me)
+[Link to git page for testing](https://yawnbo.github.io/me)
