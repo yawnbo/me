@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/midterm/2024/02/03/Artifacts.html</loc>
+<lastmod>2024-02-03T00:00:00-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/midterm/2024/02/03/Coursework.html</loc>
+<lastmod>2024-02-03T00:00:00-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/midterm/2024/02/03/Modules.html</loc>
+<lastmod>2024-02-03T00:00:00-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/midterm/2024/02/03/creative-page.md.html</loc>
+<lastmod>2024-02-03T00:00:00-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/about.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/archives.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tags.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/thank-you.html</loc>
+</url>
+</urlset>

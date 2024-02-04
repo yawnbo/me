@@ -1,0 +1,63 @@
+---
+layout: about
+title: About me
+---
+
+<h2>About me &nbsp; :art:</h2>
+
+<p>
+    Hi! My name is Yan, I am currently a running start student at Bellevue College and I hope to major in Computer Science.
+</p>
+
+<p>
+    This website mainly serves as a portfolio and collection of things that I make or enjoy doing. This was made as a midterm project
+    for my intro to web development and I hope to continue to add to it and use it :)
+</p>
+
+<p>
+    Some goals that I have for the near future would be to learn more backend, especially in C and C++ as those are my favorite languages.
+    I guess I would also like to continue to learn web development and JS including other frameworks of it that friends use such as react and node.
+    Also a huge one is to add some features to mov-cli because I love using it but I can't stand the lack of some features. 
+</p>
+<p>
+    If you would like to contact me leave your details below!
+</p>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact me helper</title>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Contact Me</h1>
+    <p>Fill out the form below to send us a message</p>
+
+    <form id="myForm" action="/thank-you.html">
+        <label>
+            Name: <br>
+            <input type="text" name="name">
+        </label>
+        <label>
+            <br>Email: <br>
+            <input type="email" name="email">
+        </label>
+
+        <label>
+            <br>Message: <br>
+            <textarea name="message"></textarea>
+            <br>
+        </label>
+
+        <button type="submit">Send</button>
+    </form>
+
+    <div id="messageDiv"></div>
+
+    <script src="/assets/js/contact.js"></script>
+</body>
+
+</html>
+
