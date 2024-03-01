@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="Artifact 04 - Contact Us">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="art4.css" />
+        <title>Artifact 04</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form id="myform" action="ty.html" onsubmit="isValid();">
+            <p>
+                <label for='FirstName'>First Name:</label>
+                <input type="text" id="FirstName" name="FirstName" >
+            </p>
+
+            <p>
+                <label for='lastName'>Last Name:</label>
+                <input type="text" id="lastName" name="lastName" >
+            </p>
+
+            <p>
+                <label for='email'>Email:</label>
+                <input type="text" id="email" name="email" >
+            </p>
+
+            <p>
+                <label for='phone'>Phone Number:</label>
+                <input type="text" id="phone" name="phone" >
+            </p>
+
+            <p>
+                <label for='username'>Username:</label>
+                <input type="text" id="username" name="username" >
+            </p>
+
+            <p>
+                <label for='password'>Password:</label>
+                <input type="text" id="password" name="password" >
+            </p>
+
+            <p>
+                <label for='address'>Address:</label>
+                <input type="text" id="address" name="address" >
+            </p>
+
+            <p>
+                <label for='city'>City:</label>
+                <input type="text" id="city" name="city" >
+            </p>
+
+                <select id="stateDropdown"> </select>
+
+            <p>
+                <select id="countryDropdown">
+                    <option value="">Select Country</option>
+                    <option value="USA">United States</option>
+                </select>
+
+            <p>
+                <input type="text" id="zipInput" name ="zipInput" placeholder="Zip code: ">
+            </p>
+
+            <p>
+                <label for='comments'>Comments:</label>
+                <input type="text" id="comments" name="comments" >
+            </p>
+
+
+            <div class="warning" id="error"></div>
+            
+            <p>
+                <input type="submit" id="submit" name="submit" value="Submit">
+            </p>
+        
+            <div class="warning" id="submiterror"></div>
+        
+        </form>
+        <script src="validator.js" type="text/javascript"></script>
+    </body>
+</html>
